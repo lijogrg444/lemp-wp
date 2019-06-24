@@ -8,6 +8,9 @@ read -e -p "Target directory: " -i "/var/www" dir
 dir=${dir:-"/var/www"}
 read -e -p "Database: " -i "wordpress" db
 db=${db:-"wordpress"}
+read -e -p "website: " -i "your_domain" domain
+domain=${domain:-"your_domain"}
+
 sudo apt-get install -y \
 	mysql-server \
 	nginx \
