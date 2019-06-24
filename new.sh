@@ -20,4 +20,6 @@ sudo apt-get install -y \
 	php-mysql \
 	wget \
 	unzip
+touch /etc/nginx/sites-available/"$domain"
+sudo replace "your_domain" "$domain" -- /etc/nginx/sites-available/"$domain"
   
