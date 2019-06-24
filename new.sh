@@ -20,6 +20,7 @@ sudo apt-get install -y \
 	php-mysql \
 	wget \
 	unzip
-touch /etc/nginx/sites-available/"$domain"
+#touch /etc/nginx/sites-available/"$domain"
+cp lemp-wp/your_domain /etc/nginx/sites-available/
 sudo replace "your_domain" "$domain" -- /etc/nginx/sites-available/"$domain"
   
