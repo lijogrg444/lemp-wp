@@ -14,10 +14,10 @@ fi
 sudo apt-get install -y \
 	mysql-server \
 	nginx \
-	php7-curl \
-	php7-fpm \
-	php7-gd \
-	php7-mysql \
+	php-curl \
+	php-fpm \
+	php-gd \
+	php-mysql \
 	wget \
 	unzip
 
